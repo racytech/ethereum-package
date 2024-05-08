@@ -1,0 +1,10 @@
+participants:
+  - el_type: erigon
+    el_image: racytech/erigon:latest
+    cl_type: grandine
+    cl_image: ethpandaops/grandine:feature-electra-7ba8f3a
+    count: 3
+network_params:
+  electra_fork_epoch: 1
+additional_services: []
+snooper_enabled: true
